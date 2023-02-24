@@ -1,0 +1,34 @@
+.chains {
+  background-color: #95bdff;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.chains h1,
+p {
+  margin: 0;
+  text-align: center;
+}
+
+.chains h1 {
+  padding-top: 3%;
+  font-size: 2.5rem;
+  font-weight: 450;
+}
+
+.chains p {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.chains-heading {
+  width: 40vw;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.chains-stack {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}

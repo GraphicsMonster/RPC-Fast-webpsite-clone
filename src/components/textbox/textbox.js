@@ -16,11 +16,11 @@ export default function TextBox(props) {
         </h3>}
 
 
-          <p>
+        {message.text && <p>
 
             {message.text}
             
-          </p>
+          </p>}
 
        </div>
     )

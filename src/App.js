@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/navbar.js";
 import Hero from "./components/Hero/hero.js";
 import Bcard from "./components/BCard/Bcard.js"
 import Testimonial from './components/testimonial/testimonial';
+import Chains from "./components/chains/chains.js"
 
 
 function App() {
@@ -110,6 +111,8 @@ function App() {
     <section className='testimonials'>
       <Testimonial />
     </section>
+
+     <Chains /> 
     
     
     
