@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+.testimonial {
+  background-color: #ecf7fd;
+}
+.testimonial h1 {
+  font-family: "Space Grotesk", sans-serif;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 2%;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.profits {
+  display: flex;
+  margin: 2% 10% auto;
+  padding-bottom: 5%;
+}

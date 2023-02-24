@@ -1,0 +1,28 @@
+.card {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100px;
+  background-color: #ffffff;
+  border-top: 2px solid;
+  border-bottom: 5px solid;
+  border-left: 2px solid;
+  border-right: 5px solid;
+  border-radius: 25px;
+  display: flex;
+}
+
+.card .svg-container {
+  width: 40%;
+  padding: 5%;
+}
+.card .text-container {
+  width: 50%;
+  padding: 5%;
+}
+
+@media (min-width: 776px) {
+  .card {
+    width: 1000px;
+  }
+}

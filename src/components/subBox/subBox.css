@@ -1,0 +1,35 @@
+.subbox {
+  width: 70vw;
+  background-color: #222;
+  border-radius: 50px;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-left: auto;
+}
+
+.subbox h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.subbox-content {
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+.subbox-content .text-container {
+  width: 60%;
+  margin: auto;
+}
+
+.subbox-content .button-container {
+  width: 30%;
+  vertical-align: middle;
+}
+
+.button-container .sub-btn {
+  padding: 25%;
+}

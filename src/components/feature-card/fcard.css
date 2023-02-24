@@ -1,0 +1,15 @@
+.fcard {
+  width: 30%;
+  margin: auto;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.fcard h2 {
+  margin: 0;
+}
+
+.fcard p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}

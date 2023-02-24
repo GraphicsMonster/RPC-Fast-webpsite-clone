@@ -1,0 +1,9 @@
+.comp-stack {
+  padding: 3% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comp-stack svg {
+  height: 80px;
+}
