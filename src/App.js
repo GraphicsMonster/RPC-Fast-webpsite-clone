@@ -5,6 +5,7 @@ import Hero from "./components/Hero/hero.js";
 import Bcard from "./components/BCard/Bcard.js"
 import Testimonial from './components/testimonial/testimonial';
 import Chains from "./components/chains/chains.js"
+import Footer from "./components/footer/footer.js"
 
 
 function App() {
@@ -113,6 +114,8 @@ function App() {
     </section>
 
      <Chains /> 
+
+     <Footer />
     
     
     
