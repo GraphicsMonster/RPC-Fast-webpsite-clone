@@ -17,4 +17,5 @@ Please feel free to clone and tweak the code to produce different unique results
 ## Screenshots
 
 
-![Screenshot 2023-02-25 at 22-02-19 React App](https://user-images.githubusercontent.com/63590510/221368693-72fdb8e6-a3e3-413f-bf34-3640d40134ad.png)
+![Screenshot 2023-02-25 at 22-41-16 React App](https://user-images.githubusercontent.com/63590510/221370311-81f9f717-5bd2-4cec-b853-627c689d215e.png)
+
