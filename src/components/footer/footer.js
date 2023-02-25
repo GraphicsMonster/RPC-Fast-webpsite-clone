@@ -53,7 +53,7 @@ function Footer() {
                             <h2>Company</h2>
                             <ul>
                                 <li>Pricing</li>
-                                <li>About US</li>
+                                <li>About Us</li>
                                 <li>Contact Us</li>
                             </ul>
                           </div>

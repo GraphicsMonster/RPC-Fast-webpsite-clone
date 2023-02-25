@@ -3,10 +3,10 @@
 import React from 'react'
 import "./Bcard.css"
 
-function Bcard({svg, text, marginLeft}) {
+function Bcard({svg, text, marginLeft, backgroundColor, borderColor}) {
 
   return (
-    <div className='card' style={{marginLeft: marginLeft}}>
+    <div className='card' style={{marginLeft: marginLeft, backgroundColor: backgroundColor, borderColor: borderColor}}>
         <div className='svg-container'>
            <>{svg}</>
         </div>
