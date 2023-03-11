@@ -16,7 +16,8 @@
   font-family: "Space Grotesk", sans-serif;
 }
 .box p {
-  padding: 1% 5% 1% 7%;
+  /* padding: 1% 5% 1% 7%; */
+  padding: 5%;
   font-family: "Space Grotesk", sans-serif;
   font-weight: bold;
   font-size: 1rem;
@@ -33,4 +34,12 @@
   width: 50%;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+@media only screen and (max-width: 490px) {
+  .box {
+    width: 80vw !important;
+    margin-left: auto !important;
+    margin-top: 20px !important;
+  }
 }

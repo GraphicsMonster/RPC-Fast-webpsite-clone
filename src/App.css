@@ -24,6 +24,15 @@ body {
   right: 50px;
 }
 
+@media screen and (max-width: 490px) {
+  .text-boxes {
+    position: static;
+    margin: 0 auto;
+    margin-right: 20px;
+    margin-top: -80px;
+  }
+}
+
 .benefits {
   width: 100vw;
   background-color: #f9f9f9;

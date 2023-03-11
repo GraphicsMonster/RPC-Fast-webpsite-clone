@@ -7,7 +7,6 @@ import Testimonial from './components/testimonial/testimonial';
 import Chains from "./components/chains/chains.js"
 import Footer from "./components/footer/footer.js"
 
-
 function App() {
 
   // Component props
@@ -57,8 +56,8 @@ function App() {
       viewBox="0 0 128 128"
     >
       <path d="M61.557 11.238A53 53 0 0021.39 95.51a52.66 52.66 0 0034.76 20.9 53.53 53.53 0 008 .6A53.13 53.13 0 00107 95a2 2 0 00-.46-2.78 2 2 0 00-2.79.45 49 49 0 01-79.14.46A49 49 0 01101.09 32H90a2 2 0 000 4h16a2 2 0 002-2V18a2 2 0 00-4 0v11.25a53 53 0 00-42.443-18.012zm31.209 34.766A8 8 0 0093 62a8 8 0 008-8 8 8 0 00-8.234-7.996zM29.94 48A2 2 0 0028 50v28a2 2 0 004 0V50a2 2 0 00-2.059-2zm15.766.004A10 10 0 0036 58v12a10 10 0 0020 0V58a10 10 0 00-10.293-9.996zm24 0A10 10 0 0060 58v12a10 10 0 0020 0V58a10 10 0 00-10.293-9.996zm47.143.105a2 2 0 00-1.26.48l-28 28a2 2 0 000 2.821 2 2 0 002.82 0l28-28a2 2 0 00-1.56-3.3zm-23.733 1.893A4 4 0 0193 58a4 4 0 01-4-4 4 4 0 014.117-3.998zm-46.941 2A6 6 0 0152 58v12a6 6 0 01-12 0V58a6 6 0 016.176-5.998zm24 0A6 6 0 0176 58v12a6 6 0 01-12 0V58a6 6 0 016.176-5.998zM113 66a8 8 0 108 8 8 8 0 00-8-8zm-.166 4.004A4 4 0 01117 74a4 4 0 01-4 4 4 4 0 01-.166-7.996z"></path>
-    </svg> <span>node-as-a-service with a quick launch</span></>}} style={{width: "500px", marginLeft: "760px", borderColor: "", marginTop: "-50px"}} />
-    <TextBox message={{text: "In-House Blockchain deployment and support."}} style={{width: "500px", marginLeft: "400px", borderColor: "#FF7000", marginTop: "-50px"}} />
+    </svg> <span>node-as-a-service with a quick launch</span></>}} style={{width: "500px", marginLeft: "760px", borderColor: "", marginTop: "-10px"}} />
+    <TextBox message={{text: "In-House Blockchain deployment and support."}} style={{width: "500px", marginLeft: "400px", borderColor: "#FF7000", marginTop: "-10px"}} />
     
     </div>
 

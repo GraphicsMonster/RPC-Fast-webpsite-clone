@@ -11,10 +11,66 @@
   margin-right: auto;
 }
 
-.text-container {
-  width: 40%;
-  margin-left: 70px;
+@media screen and (max-width: 490px) {
+  .hero-section {
+    width: 100vw;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .hero-section .text-container {
+    grid-row: 1;
+    text-align: left;
+  }
+
+  .hero-section .text-container h3 {
+    margin: auto;
+    font-weight: 250;
+    line-height: 1.5;
+  }
+
+  .hero-section .svg-container {
+    grid-row: 2;
+    width: 100vw;
+    margin: 0 auto;
+    margin-left: -30px;
+    margin-top: -80px;
+  }
+
+  .hero-section .svg-container svg {
+    height: 300px;
+  }
+
+  .hero-section .text-container ul {
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-right: 30px;
+  }
+
+  .hero-section .text-container li svg {
+    height: 50px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-section .text-container li span {
+    margin: auto;
+    text-align: center;
+  }
 }
+
+@media screen and (min-width: 760px) {
+  .text-container {
+    width: 40%;
+    margin-left: 70px;
+  }
+}
+
 .text-container h3 {
   font-size: 2.5rem;
   font-family: "Space Grotesk", sans-serif;

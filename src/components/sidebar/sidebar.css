@@ -1,0 +1,32 @@
+.sidebar {
+  display: block;
+  width: 100vw;
+  left: -100vw;
+  height: 100vw;
+  background-color: #222;
+}
+
+.close-menu {
+  top: 0;
+  right: 20px;
+  margin: 1% 2%;
+}
+
+.sidebar hr {
+  width: 70%;
+  text-align: center;
+}
+
+.chain-links {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.open-sidebar {
+  transition: left 0.3s ease-in-out;
+}
+
+.hide-sidebar {
+  transform: right 0.3s ease-in-out;
+}
